@@ -25,10 +25,10 @@ body{
 .g{
     color: rgba(255, 66, 165, 1);
 }
-ul{
+nav ul{
     display: flex;
 }
-li{
+nav li{
     list-style: none;
     margin-right: 10px;
 }
@@ -99,4 +99,109 @@ h3{
     font-size: 15px;
     color: rgba(0, 0, 0, 0.616);
     font-weight: bold;
+}
+.play-container{
+    margin-top: 100px;
+    margin-bottom: 120px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    text-align: right;
+}
+.play-text h3{
+    text-align: left;
+      color: rgba(255, 66, 165, 1);
+}
+.play-text h2{
+    margin-top: 20px;
+    font-size: 48px;
+}
+.play-text p{
+    margin-top: 15px;
+    font-size: 18px;
+}
+.play-container img{
+    width: 500px;
+}
+
+
+
+
+
+.careers-container{
+    
+    padding: 60px 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(images/Group\ 14.png),linear-gradient(rgba(255, 66, 165, 1),rgb(221, 199, 210));
+    color: white;
+}
+.careers-container img{
+    width: 550px;
+}
+.careers-head{
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+.sub-con{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.sub1 ul{
+    
+    list-style: none;
+    
+    
+
+}
+.sub2 ul{
+    list-style: none;
+}
+.last-btn{
+    margin-top: 20px;
+    padding: 15px;
+    border: none;
+    border-radius: 18px;
+    color:rgba(255, 66, 165, 1) ;
+    font-size: 20px;
+}
+
+
+
+
+.footer-container{
+    background-color: rgba(11, 2, 35, 1);
+    padding: 120px;
+    color: white;
+}
+
+.footer-logo{
+    padding-top: 120;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.footer-end{
+    text-align: center;
+    margin-top: 50px;
+    color: rgba(255, 255, 255, 0.603);
+}
+.list1{
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+    gap: 50px;
+    list-style: none;
+}
+.list2{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    margin-top: 100px;
+    justify-content: center;
+    color: rgba(255, 255, 255, 0.527);
+
 }
