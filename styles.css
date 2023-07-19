@@ -205,3 +205,25 @@ h3{
     color: rgba(255, 255, 255, 0.527);
 
 }
+
+
+@media screen and (max-width:576px) {
+    .nav-bar{
+        flex-direction: column;
+    }
+    .nav-text{
+        flex-direction: column;
+    }
+    nav ul{
+        flex-direction: column;
+    }
+    .banner-container{
+        flex-direction: column-reverse;
+    }
+    .careers-container{
+        flex-direction: column;
+    }
+    .play-container{
+        flex-direction: column;
+    }
+}
